@@ -1,5 +1,5 @@
 export interface RequestOptions {
-  /** AllRatesToday API key on a paid plan — https://allratestoday.com/pricing */
+  /** AllRatesToday API key — free at https://allratestoday.com/register */
   apiKey: string;
 }
 

@@ -4,7 +4,8 @@
 [![license](https://img.shields.io/npm/l/imf-exchange-rate.svg)](https://github.com/AllRates-Today/imf-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/imf-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
-
+[![USD/CNY today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fimf%3Fsource%3DUSD%26target%3DCNY&query=%24.rate&label=USD%2FCNY%20published%20by%20International%20Monetary%20Fund&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/imf/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fimf%3Fsource%3DUSD%26target%3DCNY&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/imf/)
 
 **Official International Monetary Fund (IMF) daily exchange rates for Node.js and TypeScript. The published international organisation rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers International Monetary Fund itself prints, every business day.**
 
@@ -21,7 +22,81 @@
 
 ## 🔑 Get your API key
 
-**Paid plans only.** This source is not on the free plan or any keyless endpoint — the latest table and the history both need a key on a [paid plan](https://allratestoday.com/pricing/). Create an account at [allratestoday.com/register](https://allratestoday.com/register), then upgrade.
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
+## ⚡ Try it without a key
+
+The latest International Monetary Fund table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
+
+```bash
+curl "https://allratestoday.com/api/open/central-bank/imf?source=USD&target=CNY"
+```
+
+```js
+const r = await fetch('https://allratestoday.com/api/open/central-bank/imf').then((x) => x.json());
+console.log(r.rate_date, r.rates.length); // the international organisation's latest published table, no key
+```
+
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
+
+## 📈 Latest published table
+
+[![Latest International Monetary Fund table](https://allratestoday.com/api/open/central-bank/imf/table.svg)](https://allratestoday.com/central-bank-rates-api/imf/)
+
+The image is rendered live from the keyless endpoint above, so it follows the international organisation's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the international organisation publishes a new table; on npm it is as of the package's publish date.
+
+<!-- daily-table:start -->
+<details>
+<summary>Table as text: published 2026-10-27 by International Monetary Fund — 41 rates. Updated 2026-10-27.</summary>
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | USD | reference | 0.7021 |
+| AUD | XDR | reference | 0.519067 |
+| BND | XDR | reference | 0.577447 |
+| BWP | USD | reference | 0.0742 |
+| BWP | XDR | reference | 0.0548565 |
+| CLP | XDR | reference | 0.000743552 |
+| CNY | XDR | reference | 0.110867 |
+| DZD | XDR | reference | 0.00547873 |
+| INR | XDR | reference | 0.0077689 |
+| JPY | XDR | reference | 0.00468954 |
+| KRW | XDR | reference | 0.000558979 |
+| KWD | XDR | reference | 2.39918 |
+| MUR | XDR | reference | 0.0154546 |
+| MYR | XDR | reference | 0.180959 |
+| NZD | USD | reference | 0.56925 |
+| NZD | XDR | reference | 0.42085 |
+| OMR | XDR | reference | 1.92277 |
+| PEN | XDR | reference | 0.215165 |
+| PLN | XDR | reference | 0.186967 |
+| QAR | XDR | reference | 0.203106 |
+| SAR | XDR | reference | 0.197148 |
+| SGD | XDR | reference | 0.577447 |
+| THB | XDR | reference | 0.0219086 |
+| USD | BND | reference | 1.2803 |
+| USD | CLP | reference | 994.29 |
+| USD | CNY | reference | 6.6684 |
+| USD | DZD | reference | 134.9411 |
+| USD | INR | reference | 95.1623 |
+| USD | JPY | reference | 157.65 |
+| USD | KRW | reference | 1322.6 |
+| USD | KWD | reference | 0.30815 |
+| USD | MUR | reference | 47.8373 |
+| USD | MYR | reference | 4.0855 |
+| USD | OMR | reference | 0.3845 |
+| USD | PEN | reference | 3.436 |
+| USD | PLN | reference | 3.9542 |
+| USD | QAR | reference | 3.64 |
+| USD | SAR | reference | 3.75 |
+| USD | SGD | reference | 1.2803 |
+| USD | THB | reference | 33.745 |
+| USD | XDR | reference | 0.739306 |
+
+</details>
+
+Source: [Official rates published by IMF, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/imf/). Rates are as printed by the international organisation; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 📦 Installation
 
@@ -59,7 +134,7 @@ console.log(pair.rate, pair.rate_date); // the official International Monetary F
 
 ### Latest pair rate
 
-Paid plans. Pairs the international organisation does not print directly are resolved from its table and flagged (see *Published vs derived rates* below).
+Free plan and up. Pairs the international organisation does not print directly are resolved from its table and flagged (see *Published vs derived rates* below).
 
 ```js
 const pair = await getRate('USD', 'CNY', { apiKey: 'art_live_...' });
@@ -84,7 +159,7 @@ const pair = await getRate('USD', 'CNY', { apiKey: 'art_live_...' });
 
 ### Full published table
 
-Paid plans. The complete table for the latest publication date.
+Free plan and up. The complete table for the latest publication date.
 
 ```js
 import { getLatestRates } from 'imf-exchange-rate';
@@ -177,7 +252,7 @@ International Monetary Fund currently publishes rates covering **36 currencies**
 
 ## 🏛️ Source
 
-The International Monetary Fund publishes representative exchange rates for about 40 currencies every business day — the rates member central banks report to the Fund, in currency units per U.S. dollar (U.S. dollars per unit for the euro, pound, Australian and New Zealand dollars and pula) — together with each currency's value in SDRs. They are the rates the IMF itself uses for its operations and the reference behind the SDR valuation. The API serves the dollar table under base USD and the SDR values as currency/XDR pairs, with history back to 2003. Paid plans only.
+The International Monetary Fund publishes representative exchange rates for about 40 currencies every business day — the rates member central banks report to the Fund, in currency units per U.S. dollar (U.S. dollars per unit for the euro, pound, Australian and New Zealand dollars and pula) — together with each currency's value in SDRs. They are the rates the IMF itself uses for its operations and the reference behind the SDR valuation. The API serves the dollar table under base USD and the SDR values as currency/XDR pairs, with history back to 2003.
 
 - Publisher's own page: [Exchange Rate Archives by Month](https://www.imf.org/external/np/fin/data/param_rms_mth.aspx) · [www.imf.org](https://www.imf.org)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [International Monetary Fund rates page](https://allratestoday.com/central-bank-rates-api/imf/)
@@ -205,7 +280,10 @@ curl "https://allratestoday.com/api/v1/central-bank/imf/latest?format=xml&api_ke
 
 ## 🤖 AI agents
 
-- MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — with a paid key: tools for official rates, history, cross-bank comparison and publication calendars
+- MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
+- Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('imf')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
+- Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate imf ...` command
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
@@ -236,7 +314,7 @@ try {
 | — | Missing `apiKey` (thrown before any request) |
 | `400` | Malformed date or parameters |
 | `401` | Invalid API key |
-| `403` | This source needs a [paid plan](https://allratestoday.com/pricing/) (every endpoint) |
+| `403` | Endpoint needs a [paid plan](https://allratestoday.com/pricing/) (historical dates & series) |
 | `404` | Pair or date range not covered by International Monetary Fund |
 | `429` | Monthly quota exceeded |
 
@@ -265,18 +343,26 @@ getRate('USD', 'CNY', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 | Method | Plan | Description |
 | ------ | ---- | ----------- |
-| `getRate(source, target, { apiKey })` | Paid | Latest rate for one pair, resolved from the published table |
-| `getLatestRates({ apiKey })` | Paid | The international organisation's full latest published table |
+| `getRate(source, target, { apiKey })` | Free | Latest rate for one pair, resolved from the published table |
+| `getLatestRates({ apiKey })` | Free | The international organisation's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2003 |
 
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/imf.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/imf/latest.json`
+
 ## 🔗 Links
 
-- [International Monetary Fund rates page](https://allratestoday.com/central-bank-rates-api/imf/) — publication cadence, FAQ
+- [International Monetary Fund rates page](https://allratestoday.com/central-bank-rates-api/imf/) — live table, publication cadence, FAQ
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
-- [ERP integration guides](https://allratestoday.com/docs/integrations/)
+- [Package docs on the site](https://allratestoday.com/docs/sdk/imf-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
 - [Status](https://allratestoday.com/status)
 - [Postman collection](https://allratestoday.com/postman/)
 - [GitHub](https://github.com/AllRates-Today/imf-exchange-rate)

@@ -1,7 +1,7 @@
 'use strict';
 // International Monetary Fund exchange rates via the AllRatesToday API.
 const BASE = 'https://allratestoday.com/api/v1/central-bank/imf';
-const KEY_HINT = 'An apiKey on a paid plan is required — International Monetary Fund rates are paid-only: https://allratestoday.com/pricing';
+const KEY_HINT = 'An apiKey is required — get a free key at https://allratestoday.com/register (no credit card required).';
 
 async function request(path, params, options) {
   const apiKey = options && options.apiKey;
@@ -22,7 +22,7 @@ async function request(path, params, options) {
   return body;
 }
 
-/** Latest published table (paid plans). */
+/** Latest published table (all plans, including free). */
 async function getLatestRates(options) {
   return request('/latest', {}, options);
 }
