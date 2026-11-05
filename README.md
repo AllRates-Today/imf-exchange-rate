@@ -32,74 +32,65 @@ The image is rendered live from the keyless endpoint, so it follows the internat
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-04 by International Monetary Fund — 71 rates, first 60 shown. Updated 2026-11-04.</summary>
+<summary>Table as text: published 2026-11-05 by International Monetary Fund — 51 rates. Updated 2026-11-05.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | XDR | reference | 0.200575 |
-| AUD | USD | reference | 0.6972 |
-| AUD | XDR | reference | 0.513567 |
-| BND | XDR | reference | 0.575614 |
-| BRL | XDR | reference | 0.134487 |
-| BWP | USD | reference | 0.0745 |
-| BWP | XDR | reference | 0.0548777 |
-| CAD | XDR | reference | 0.527622 |
-| CHF | XDR | reference | 0.901585 |
-| CLP | XDR | reference | 0.000751194 |
-| CNY | XDR | reference | 0.110304 |
-| CZK | XDR | reference | 0.0341499 |
-| DKK | XDR | reference | 0.111046 |
-| DZD | XDR | reference | 0.00541983 |
-| EUR | USD | reference | 1.1267 |
-| EUR | XDR | reference | 0.829942 |
-| GBP | USD | reference | 1.3484 |
-| GBP | XDR | reference | 0.993249 |
-| ILS | XDR | reference | 0.233327 |
-| INR | XDR | reference | 0.00776677 |
-| JPY | XDR | reference | 0.00464594 |
-| KRW | XDR | reference | 0.000549219 |
-| KWD | XDR | reference | 2.39277 |
-| MUR | XDR | reference | 0.0155646 |
-| MXN | XDR | reference | 0.0395423 |
-| MYR | XDR | reference | 0.180875 |
-| NOK | XDR | reference | 0.0798254 |
-| NZD | USD | reference | 0.5592 |
-| NZD | XDR | reference | 0.411914 |
-| OMR | XDR | reference | 1.91577 |
-| PEN | XDR | reference | 0.212955 |
-| PHP | XDR | reference | 0.0116018 |
-| PLN | XDR | reference | 0.188407 |
-| QAR | XDR | reference | 0.202366 |
-| SAR | XDR | reference | 0.19643 |
-| SEK | XDR | reference | 0.0756432 |
-| SGD | XDR | reference | 0.575614 |
-| THB | XDR | reference | 0.0218534 |
-| TTD | XDR | reference | 0.109733 |
-| USD | AED | reference | 3.6725 |
-| USD | BND | reference | 1.2797 |
-| USD | BRL | reference | 5.4772 |
-| USD | CAD | reference | 1.3961 |
-| USD | CHF | reference | 0.81702 |
-| USD | CLP | reference | 980.59 |
-| USD | CNY | reference | 6.678 |
-| USD | CZK | reference | 21.57 |
-| USD | DKK | reference | 6.6334 |
-| USD | DZD | reference | 135.9107 |
-| USD | ILS | reference | 3.157 |
-| USD | INR | reference | 94.8416 |
-| USD | JPY | reference | 158.55 |
-| USD | KRW | reference | 1341.2 |
+| AUD | USD | reference | 0.7014 |
+| AUD | XDR | reference | 0.517121 |
+| BND | XDR | reference | 0.577798 |
+| BWP | USD | reference | 0.075 |
+| BWP | XDR | reference | 0.0552953 |
+| CHF | XDR | reference | 0.901308 |
+| CLP | XDR | reference | 0.000759328 |
+| CNY | XDR | reference | 0.11053 |
+| CZK | XDR | reference | 0.0340603 |
+| DZD | XDR | reference | 0.00542357 |
+| EUR | USD | reference | 1.1224 |
+| EUR | XDR | reference | 0.827512 |
+| GBP | USD | reference | 1.34695 |
+| GBP | XDR | reference | 0.993066 |
+| ILS | XDR | reference | 0.232798 |
+| INR | XDR | reference | 0.0078101 |
+| JPY | XDR | reference | 0.00466922 |
+| KRW | XDR | reference | 0.000549914 |
+| KWD | XDR | reference | 2.3949 |
+| MUR | XDR | reference | 0.0157234 |
+| MYR | XDR | reference | 0.182222 |
+| NZD | USD | reference | 0.56355 |
+| NZD | XDR | reference | 0.415489 |
+| OMR | XDR | reference | 1.91748 |
+| PEN | XDR | reference | 0.213887 |
+| PLN | XDR | reference | 0.188555 |
+| QAR | XDR | reference | 0.202547 |
+| SAR | XDR | reference | 0.196605 |
+| SGD | XDR | reference | 0.577798 |
+| THB | XDR | reference | 0.0220535 |
+| USD | BND | reference | 1.276 |
+| USD | CHF | reference | 0.818 |
+| USD | CLP | reference | 970.95 |
+| USD | CNY | reference | 6.6703 |
+| USD | CZK | reference | 21.646 |
+| USD | DZD | reference | 135.9382 |
+| USD | ILS | reference | 3.167 |
+| USD | INR | reference | 94.3996 |
+| USD | JPY | reference | 157.9 |
+| USD | KRW | reference | 1340.7 |
 | USD | KWD | reference | 0.30785 |
-| USD | MUR | reference | 47.3262 |
-| USD | MXN | reference | 18.6285 |
-| USD | MYR | reference | 4.0725 |
-| USD | NOK | reference | 9.2278 |
+| USD | MUR | reference | 46.8899 |
+| USD | MYR | reference | 4.046 |
 | USD | OMR | reference | 0.3845 |
-| USD | PEN | reference | 3.459 |
+| USD | PEN | reference | 3.447 |
+| USD | PLN | reference | 3.9101 |
+| USD | QAR | reference | 3.64 |
+| USD | SAR | reference | 3.75 |
+| USD | SGD | reference | 1.276 |
+| USD | THB | reference | 33.431 |
+| USD | XDR | reference | 0.73727 |
 
 </details>
 
-[Full table on the International Monetary Fund rates page](https://allratestoday.com/central-bank-rates-api/imf/) · Source: [Official rates published by IMF, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/imf/). Rates are as printed by the international organisation; AllRatesToday is not affiliated with it.
+Source: [Official rates published by IMF, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/imf/). Rates are as printed by the international organisation; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
 
 ## 📦 Installation
