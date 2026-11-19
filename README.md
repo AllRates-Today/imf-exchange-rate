@@ -32,45 +32,74 @@ The image is rendered live from the keyless endpoint, so it follows the internat
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-17 by International Monetary Fund — 31 rates. Updated 2026-11-18.</summary>
+<summary>Table as text: published 2026-11-18 by International Monetary Fund — 71 rates, first 60 shown. Updated 2026-11-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | USD | reference | 0.6742 |
-| BWP | USD | reference | 0.0732 |
-| EUR | USD | reference | 1.0989 |
-| GBP | USD | reference | 1.31885 |
-| NZD | USD | reference | 0.5501 |
+| AED | XDR | reference | 0.202661 |
+| AUD | USD | reference | 0.672 |
+| AUD | XDR | reference | 0.500151 |
+| BND | XDR | reference | 0.577313 |
+| BRL | XDR | reference | 0.128111 |
+| BWP | USD | reference | 0.0731 |
+| BWP | XDR | reference | 0.0544063 |
+| CAD | XDR | reference | 0.519525 |
+| CHF | XDR | reference | 0.883084 |
+| CLP | XDR | reference | 0.000746751 |
+| CNY | XDR | reference | 0.111659 |
+| CZK | XDR | reference | 0.0334805 |
+| DKK | XDR | reference | 0.109216 |
+| DZD | XDR | reference | 0.00543658 |
+| EUR | USD | reference | 1.0968 |
+| EUR | XDR | reference | 0.816318 |
+| GBP | USD | reference | 1.31575 |
+| GBP | XDR | reference | 0.979276 |
+| ILS | XDR | reference | 0.228234 |
+| INR | XDR | reference | 0.00797242 |
+| JPY | XDR | reference | 0.00466365 |
+| KRW | XDR | reference | 0.000555925 |
+| KWD | XDR | reference | 2.40943 |
+| MUR | XDR | reference | 0.015435 |
+| MXN | XDR | reference | 0.0398597 |
+| MYR | XDR | reference | 0.181066 |
+| NOK | XDR | reference | 0.0769783 |
+| NZD | USD | reference | 0.55025 |
+| NZD | XDR | reference | 0.409536 |
+| OMR | XDR | reference | 1.93569 |
+| PEN | XDR | reference | 0.21839 |
+| PHP | XDR | reference | 0.0116611 |
+| PLN | XDR | reference | 0.185281 |
+| QAR | XDR | reference | 0.20447 |
+| SAR | XDR | reference | 0.198473 |
+| SEK | XDR | reference | 0.0732583 |
+| SGD | XDR | reference | 0.577313 |
+| THB | XDR | reference | 0.0219633 |
+| TTD | XDR | reference | 0.110385 |
 | USD | AED | reference | 3.6725 |
-| USD | BND | reference | 1.2884 |
-| USD | BRL | reference | 5.7845 |
-| USD | CHF | reference | 0.84013 |
-| USD | CLP | reference | 1001.17 |
-| USD | CNY | reference | 6.6661 |
-| USD | DKK | reference | 6.8022 |
-| USD | DZD | reference | 136.8452 |
-| USD | ILS | reference | 3.246 |
-| USD | INR | reference | 93.5703 |
-| USD | JPY | reference | 159.1 |
-| USD | KRW | reference | 1335 |
-| USD | KWD | reference | 0.3088 |
-| USD | MUR | reference | 48.3502 |
-| USD | MXN | reference | 18.4677 |
-| USD | MYR | reference | 4.089 |
-| USD | NOK | reference | 9.6237 |
+| USD | BND | reference | 1.2892 |
+| USD | BRL | reference | 5.8096 |
+| USD | CAD | reference | 1.4326 |
+| USD | CHF | reference | 0.84281 |
+| USD | CLP | reference | 996.68 |
+| USD | CNY | reference | 6.6656 |
+| USD | CZK | reference | 22.23 |
+| USD | DKK | reference | 6.8147 |
+| USD | DZD | reference | 136.9008 |
+| USD | ILS | reference | 3.261 |
+| USD | INR | reference | 93.3558 |
+| USD | JPY | reference | 159.59 |
+| USD | KRW | reference | 1338.8 |
+| USD | KWD | reference | 0.3089 |
+| USD | MUR | reference | 48.2198 |
+| USD | MXN | reference | 18.6723 |
+| USD | MYR | reference | 4.1105 |
+| USD | NOK | reference | 9.6686 |
 | USD | OMR | reference | 0.3845 |
 | USD | PEN | reference | 3.408 |
-| USD | PHP | reference | 63.841 |
-| USD | PLN | reference | 4.0022 |
-| USD | QAR | reference | 3.64 |
-| USD | SAR | reference | 3.75 |
-| USD | SEK | reference | 10.11011 |
-| USD | SGD | reference | 1.2884 |
-| USD | THB | reference | 33.831 |
 
 </details>
 
-Source: [Official rates published by IMF, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/imf/). Rates are as printed by the international organisation; AllRatesToday is not affiliated with it.
+[Full table on the International Monetary Fund rates page](https://allratestoday.com/central-bank-rates-api/imf/) · Source: [Official rates published by IMF, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/imf/). Rates are as printed by the international organisation; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
 
 ## 📦 Installation
