@@ -32,45 +32,41 @@ The image is rendered live from the keyless endpoint, so it follows the internat
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-19 by International Monetary Fund — 35 rates. Updated 2026-11-23.</summary>
+<summary>Table as text: published 2026-11-23 by International Monetary Fund — 31 rates. Updated 2026-11-24.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | USD | reference | 0.6677 |
-| BWP | USD | reference | 0.0724 |
-| EUR | USD | reference | 1.0992 |
-| GBP | USD | reference | 1.31555 |
-| NZD | USD | reference | 0.54985 |
+| AUD | USD | reference | 0.6638 |
+| BWP | USD | reference | 0.0722 |
+| EUR | USD | reference | 1.0939 |
+| GBP | USD | reference | 1.30975 |
+| NZD | USD | reference | 0.548 |
 | USD | AED | reference | 3.6725 |
 | USD | BND | reference | 1.2905 |
-| USD | BRL | reference | 5.8883 |
-| USD | CAD | reference | 1.4317 |
-| USD | CHF | reference | 0.84252 |
-| USD | CLP | reference | 1002.07 |
-| USD | CNY | reference | 6.6651 |
-| USD | CZK | reference | 22.219 |
-| USD | DKK | reference | 6.7997 |
-| USD | DZD | reference | 136.9455 |
-| USD | ILS | reference | 3.282 |
-| USD | INR | reference | 93.3461 |
-| USD | JPY | reference | 159.59 |
-| USD | KRW | reference | 1331.1 |
-| USD | KWD | reference | 0.309 |
-| USD | MUR | reference | 47.1216 |
-| USD | MXN | reference | 19.027 |
-| USD | MYR | reference | 4.1145 |
-| USD | NOK | reference | 9.6866 |
+| USD | BRL | reference | 5.9702 |
+| USD | CAD | reference | 1.4369 |
+| USD | CLP | reference | 1017.17 |
+| USD | CNY | reference | 6.6654 |
+| USD | DKK | reference | 6.833 |
+| USD | DZD | reference | 136.9872 |
+| USD | INR | reference | 92.7968 |
+| USD | KRW | reference | 1337.3 |
+| USD | KWD | reference | 0.3089 |
+| USD | MUR | reference | 47.2135 |
+| USD | MXN | reference | 19.1648 |
+| USD | MYR | reference | 4.1175 |
+| USD | NOK | reference | 9.8076 |
 | USD | OMR | reference | 0.3845 |
-| USD | PEN | reference | 3.426 |
-| USD | PHP | reference | 63.633 |
-| USD | PLN | reference | 4.0176 |
+| USD | PEN | reference | 3.447 |
+| USD | PHP | reference | 63.852 |
+| USD | PLN | reference | 4.0601 |
 | USD | QAR | reference | 3.64 |
 | USD | SAR | reference | 3.75 |
-| USD | SEK | reference | 10.14101 |
+| USD | SEK | reference | 10.27288 |
 | USD | SGD | reference | 1.2905 |
-| USD | THB | reference | 33.982 |
-| USD | TTD | reference | 6.751 |
-| USD | UYU | reference | 40.604 |
+| USD | THB | reference | 33.993 |
+| USD | TTD | reference | 6.7432 |
+| USD | UYU | reference | 40.721 |
 
 </details>
 
